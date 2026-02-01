@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 
 # DIQQAT: Bot Tokenni xavfsizlik uchun environment variable orqali olish tavsiya etiladi
 # Yoki shu yerning o'ziga vaqtincha yozishingiz mumkin
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN" 
+BOT_TOKEN = "8288887280:AAFukqA3Z9_LNFkyTGsiJ5l0WEsdYvBigno" 
 WEBAPP_URL = "YOUR_VERCEL_DEPLOYMENT_URL"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -29,7 +29,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(welcome_text, reply_markup=reply_markup)
 
 def main():
-    if BOT_TOKEN == "YOUR_TELEGRAM_BOT_TOKEN":
+    if BOT_TOKEN == "8288887280:AAFukqA3Z9_LNFkyTGsiJ5l0WEsdYvBigno":
         print("Xatolik: Iltimos, bot.py ichiga o'z bot tokeningizni yozing!")
         return
 
